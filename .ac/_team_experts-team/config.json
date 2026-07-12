@@ -1,0 +1,50 @@
+{
+  "agents": [
+    "_agent_experts-coordinator",
+    "_agent_architect-1",
+    "_agent_architect-2",
+    "_agent_architect-3",
+    "_agent_developer-1",
+    "_agent_developer-2",
+    "_agent_developer-3"
+  ],
+  "coordinator": "_agent_experts-coordinator",
+  "repos": [
+    {
+      "url": "https://github.com/mblua/AgentsCommander.git",
+      "agents": [
+        "_agent_experts-coordinator",
+        "_agent_architect-1",
+        "_agent_architect-2",
+        "_agent_architect-3",
+        "_agent_developer-1",
+        "_agent_developer-2",
+        "_agent_developer-3"
+      ]
+    },
+    {
+      "url": "https://github.com/mblua/CodebaseConstellation.git",
+      "agents": [
+        "_agent_experts-coordinator",
+        "_agent_architect-1",
+        "_agent_architect-2",
+        "_agent_architect-3",
+        "_agent_developer-1",
+        "_agent_developer-2",
+        "_agent_developer-3"
+      ]
+    },
+    {
+      "url": "https://github.com/mblua/personal.git",
+      "agents": [
+        "_agent_experts-coordinator",
+        "_agent_architect-1",
+        "_agent_architect-2",
+        "_agent_architect-3",
+        "_agent_developer-1",
+        "_agent_developer-2",
+        "_agent_developer-3"
+      ]
+    }
+  ]
+}

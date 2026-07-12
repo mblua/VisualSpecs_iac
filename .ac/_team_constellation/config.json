@@ -1,0 +1,38 @@
+{
+  "agents": [
+    "_agent_contract-architect",
+    "_agent_graph-analytics",
+    "_agent_rust-ingestion",
+    "_agent_webgl-render"
+  ],
+  "coordinator": "_agent_contract-architect",
+  "repos": [
+    {
+      "url": "https://github.com/mblua/AgentsCommander.git",
+      "agents": [
+        "_agent_contract-architect",
+        "_agent_graph-analytics",
+        "_agent_rust-ingestion",
+        "_agent_webgl-render"
+      ]
+    },
+    {
+      "url": "https://github.com/mblua/CodebaseConstellation.git",
+      "agents": [
+        "_agent_contract-architect",
+        "_agent_graph-analytics",
+        "_agent_rust-ingestion",
+        "_agent_webgl-render"
+      ]
+    },
+    {
+      "url": "https://github.com/mblua/personal.git",
+      "agents": [
+        "_agent_contract-architect",
+        "_agent_graph-analytics",
+        "_agent_rust-ingestion",
+        "_agent_webgl-render"
+      ]
+    }
+  ]
+}

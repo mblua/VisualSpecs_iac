@@ -1,0 +1,4 @@
+interface:
+  display_name: "AgentsCommander Coordinator Messaging"
+  short_description: "Clean-context delegation for coordinators"
+  default_prompt: "Use $agentscommander-coordinator-messaging to assign a new task to a team peer safely."

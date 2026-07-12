@@ -1,0 +1,10 @@
+{
+  "agents": [
+    "_agent_contract-architect",
+    "_agent_graph-analytics",
+    "_agent_rust-ingestion",
+    "_agent_webgl-render"
+  ],
+  "coordinator": "_agent_contract-architect",
+  "repos": []
+}

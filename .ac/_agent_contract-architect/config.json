@@ -1,0 +1,7 @@
+{
+  "context": [
+    "$AGENTSCOMMANDER_CONTEXT",
+    "Role.md"
+  ],
+  "tooling": {}
+}

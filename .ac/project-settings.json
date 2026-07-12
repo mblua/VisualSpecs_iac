@@ -1,0 +1,19 @@
+{
+  "groups": [],
+  "nonStop": {
+    "name": "Alert me!",
+    "regex": "(?!)",
+    "show": true,
+    "sound": {
+      "enabled": false,
+      "seconds": 3
+    },
+    "telegram": {
+      "botId": null,
+      "enabled": false
+    },
+    "toleranceSeconds": 30
+  },
+  "showAll": true,
+  "showUngrouped": true
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Set Task Title First"
+  short_description: "Set the workgroup title before starting work"
+  default_prompt: "Use $set-task-title-first to title the current workgroup task before beginning."
