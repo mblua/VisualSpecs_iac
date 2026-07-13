@@ -1,0 +1,32 @@
+{
+  "agents": [
+    "_agent_vs-spec-core-lead",
+    "_agent_vs-extraction-evidence-dev",
+    "_agent_vs-graph-runtime-dev",
+    "_agent_vs-semantic-red-team",
+    "_agent_vs-resilience-red-team"
+  ],
+  "coordinator": "_agent_vs-spec-core-lead",
+  "repos": [
+    {
+      "url": "https://github.com/mblua/CodebaseConstellation.git",
+      "agents": [
+        "_agent_vs-spec-core-lead",
+        "_agent_vs-extraction-evidence-dev",
+        "_agent_vs-graph-runtime-dev",
+        "_agent_vs-semantic-red-team",
+        "_agent_vs-resilience-red-team"
+      ]
+    },
+    {
+      "url": "https://github.com/mblua/AgentsCommander.git",
+      "agents": [
+        "_agent_vs-spec-core-lead",
+        "_agent_vs-extraction-evidence-dev",
+        "_agent_vs-graph-runtime-dev",
+        "_agent_vs-semantic-red-team",
+        "_agent_vs-resilience-red-team"
+      ]
+    }
+  ]
+}

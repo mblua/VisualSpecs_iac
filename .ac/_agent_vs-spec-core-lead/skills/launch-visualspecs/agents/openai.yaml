@@ -1,0 +1,4 @@
+interface:
+  display_name: "Launch VisualSpecs"
+  short_description: "Start and open the local VisualSpecs app"
+  default_prompt: "Use $launch-visualspecs to start VisualSpecs and open it in my browser."
