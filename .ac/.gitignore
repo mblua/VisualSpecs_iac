@@ -23,3 +23,13 @@ _loop_*/audit.jsonl
 # AgentsCommander: exclude managed session context files inside replica agent folders.
 **/__agent_*/AGENTS.md
 
+
+# AgentsCommander: exclude team-config coordination files.
+/.team-config-write.lock
+
+# AgentsCommander: exclude seed-manifest coordination files.
+/.seed-manifest.lock
+/.seed-manifest.*.tmp
+
+# AgentsCommander: keep the seed publication manifest reviewable.
+!/seed-manifest.toml

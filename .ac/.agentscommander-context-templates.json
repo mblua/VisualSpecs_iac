@@ -3,16 +3,16 @@
   "templates": {
     "coordinator": {
       "templateId": "coordinator",
-      "currentVersion": 2,
-      "lastSeededSha256": "92f3abfc108147b07f1c4a49e7062c0f4d0d9aae570b7e5195852c31bb8b0d02",
+      "currentVersion": 4,
+      "lastSeededSha256": "f6ef7894b9f0f606e945c282d769144e96487fcc01ab435c9aab8019bb3ce1f6",
       "lastObservedSha256": null,
       "ignoredDefaultSha256": null,
       "ignoredObservedSha256": null
     },
     "global": {
       "templateId": "global",
-      "currentVersion": 1,
-      "lastSeededSha256": "c9de5b80ad99a5743ad20c3344e7dd03888792f4da175943bee72e3d7d91fb88",
+      "currentVersion": 2,
+      "lastSeededSha256": "e5861a9f011967e96e5515f858e1643f7fdf161511ad909fe86ddb4ce1a0cff7",
       "lastObservedSha256": null,
       "ignoredDefaultSha256": null,
       "ignoredObservedSha256": null

@@ -4,7 +4,7 @@
       "favorite": true,
       "id": "613387f3-dc47-4b77-a4f1-996c3608a21d",
       "name": "CD-WIP",
-      "regex": "^(wg-4-vs-dev-team)$"
+      "regex": "^(wg-4-vs-dev-team|wg-5-vs-dev-team|wg-6-vs-dev-team)$"
     }
   ],
   "nonStop": {
