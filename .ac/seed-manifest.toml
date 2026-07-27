@@ -1,0 +1,44 @@
+# Managed by AgentsCommander. Diagnostic only; never grants file ownership.
+schema_version = 1
+coverage_version = 1
+coverage = ["project_context_templates", "replica_config_folders"]
+
+[[files]]
+path = ".ac/wg-1-vs-dev-team/__agent_vs-extraction-evidence-dev/.claude/settings.local.json"
+path_encoding = "utf8"
+kind = "replica_config_file"
+scope = "config:.ac/wg-1-vs-dev-team/__agent_vs-extraction-evidence-dev/.claude"
+source = "workspace_base"
+last_seeded_at = "2026-07-25T02:37:57.265Z"
+
+[[files]]
+path = ".ac/wg-1-vs-dev-team/__agent_vs-graph-runtime-dev/.claude/settings.local.json"
+path_encoding = "utf8"
+kind = "replica_config_file"
+scope = "config:.ac/wg-1-vs-dev-team/__agent_vs-graph-runtime-dev/.claude"
+source = "workspace_base"
+last_seeded_at = "2026-07-25T02:37:40.087Z"
+
+[[files]]
+path = ".ac/wg-1-vs-dev-team/__agent_vs-resilience-red-team/.claude/settings.local.json"
+path_encoding = "utf8"
+kind = "replica_config_file"
+scope = "config:.ac/wg-1-vs-dev-team/__agent_vs-resilience-red-team/.claude"
+source = "workspace_base"
+last_seeded_at = "2026-07-25T02:38:21.985Z"
+
+[[files]]
+path = ".ac/wg-1-vs-dev-team/__agent_vs-semantic-red-team/.claude/settings.local.json"
+path_encoding = "utf8"
+kind = "replica_config_file"
+scope = "config:.ac/wg-1-vs-dev-team/__agent_vs-semantic-red-team/.claude"
+source = "workspace_base"
+last_seeded_at = "2026-07-25T02:38:08.349Z"
+
+[[files]]
+path = ".ac/wg-1-vs-dev-team/__agent_vs-spec-core-lead/.claude/settings.local.json"
+path_encoding = "utf8"
+kind = "replica_config_file"
+scope = "config:.ac/wg-1-vs-dev-team/__agent_vs-spec-core-lead/.claude"
+source = "workspace_base"
+last_seeded_at = "2026-07-26T15:53:54.753Z"

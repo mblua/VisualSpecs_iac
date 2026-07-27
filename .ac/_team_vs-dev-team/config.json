@@ -28,5 +28,8 @@
         "_agent_vs-spec-core-lead"
       ]
     }
+  ],
+  "contextAlertPercentages": [
+    30
   ]
 }

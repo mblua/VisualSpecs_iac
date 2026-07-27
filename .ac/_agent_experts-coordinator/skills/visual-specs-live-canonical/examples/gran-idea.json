@@ -1,0 +1,65 @@
+{
+  "formatVersion": "1.0",
+  "generator": {
+    "name": "visual-specs-live-canonical",
+    "version": "1.0.0"
+  },
+  "source": {
+    "kind": "conversation",
+    "root": "gran-idea"
+  },
+  "nodes": [
+    {
+      "id": "idea:gran-idea",
+      "kind": "idea",
+      "label": "Gran Idea",
+      "parentId": null
+    },
+    {
+      "id": "actor:user",
+      "kind": "actor",
+      "label": "User",
+      "parentId": "idea:gran-idea"
+    },
+    {
+      "id": "component:frontend",
+      "kind": "frontend",
+      "label": "Frontend",
+      "parentId": "idea:gran-idea"
+    },
+    {
+      "id": "component:backend",
+      "kind": "backend",
+      "label": "Backend",
+      "parentId": "idea:gran-idea"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow:user-to-frontend",
+      "kind": "flow",
+      "sourceId": "actor:user",
+      "targetId": "component:frontend",
+      "label": "uses",
+      "confidence": "declared"
+    },
+    {
+      "id": "flow:frontend-to-backend",
+      "kind": "flow",
+      "sourceId": "component:frontend",
+      "targetId": "component:backend",
+      "label": "calls",
+      "confidence": "declared"
+    }
+  ],
+  "view": {
+    "positions": {
+      "idea:gran-idea": { "x": 500, "y": 260, "pinned": true },
+      "actor:user": { "x": 220, "y": 380, "pinned": true },
+      "component:frontend": { "x": 500, "y": 380, "pinned": true },
+      "component:backend": { "x": 780, "y": 380, "pinned": true }
+    },
+    "expanded": [],
+    "viewport": { "x": 0, "y": 0, "zoom": 0.75 }
+  }
+}
